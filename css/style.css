@@ -1,0 +1,21 @@
+/* Study Break Cafe colours: loaded after Bootstrap 6. */
+:root {
+  --bs-primary-base: #71452e;
+  --bs-primary-bg: #71452e;
+  --bs-primary-fg: #71452e;
+  --bs-primary-fg-emphasis: #47291b;
+  --bs-primary-bg-subtle: #f4e9dd;
+  --bs-primary-bg-muted: #e8d2be;
+  --bs-primary-border: #ba977d;
+  --bs-primary-focus-ring: #9b694b;
+  --bs-primary-contrast: #ffffff;
+}
+body { background-color: #fbf8f3; color: #342a23; }
+h1, h2, h3 { color: #3e2b20; }
+.eyebrow { color: #71452e; }
+.site-brand { color: #70462e; font-weight: 700; letter-spacing: .02em; }
+.hero-photo { height: 340px; object-fit: cover; }
+.card-photo { height: 195px; object-fit: cover; }
+.card { --bs-card-bg: #fffdf9; }
+footer { background-color: #f1e6da; }
+.navbar { border-bottom: 1px solid #e3d5c6; }

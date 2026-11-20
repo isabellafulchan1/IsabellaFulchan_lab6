@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Study Break Café | Home</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class="navbar md:navbar-expand bg-1" aria-label="Main navigation">
+  <div class="container">
+    <a class="navbar-brand site-brand" href="index.html">&#9749; Study Break Café</a>
+    <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Open navigation menu">
+      <span class="navbar-toggler-icon" aria-hidden="true"></span>
+    </button>
+    <dialog class="drawer drawer-end" id="mainMenu" tabindex="-1" aria-labelledby="mainMenuLabel">
+      <div class="drawer-header">
+        <p class="drawer-title h5" id="mainMenuLabel">Site menu</p>
+        <button class="btn-close" type="button" data-bs-dismiss="drawer" aria-label="Close menu"></button>
+      </div>
+      <div class="drawer-body">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#more">Our menu</a></li>
+          <li class="nav-item"><a class="nav-link "  href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </dialog>
+  </div>
+</nav><main>
+  <section class="container pt-10 pb-6" aria-labelledby="homeHeading">
+    <p class="fw-bold eyebrow mb-2">YOUR PAUSE BETWEEN CLASSES</p>
+    <h1 id="homeHeading" class="mb-3">Good drinks, better breaks.</h1>
+    <p class="fg-2 mb-7">Welcome to Study Break Café, a little café idea made for coffee, catch-ups and quiet moments.</p>
+    <div id="featuredDrinks" class="carousel slide" aria-label="Featured café drinks">
+      <div class="carousel-inner rounded-5">
+      <div class="carousel-item active">
+        <div class="row g-0 align-items-center bg-1 rounded-5">
+          <div class="col-12 md:col-6">
+            <img src="images/featured-1.jpg" class="d-block w-100 rounded-5 hero-photo" width="1100" height="640" alt="A warm oat milk latte topped with delicate milk art in a cream cup">
+          </div>
+          <div class="col-12 md:col-6 p-8">
+            <p class="small fw-bold fg-2 mb-3">01 / SOMETHING COSY</p>
+            <p class="h2 mb-4">A little honey, a lot of comfort.</p>
+            <p class="fg-2 mb-5">Start the morning with our mellow honey oat latte.</p>
+            <a class="btn-solid theme-primary" href="#more">Explore our menu</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item ">
+        <div class="row g-0 align-items-center bg-1 rounded-5">
+          <div class="col-12 md:col-6">
+            <img src="images/featured-2.jpg" class="d-block w-100 rounded-5 hero-photo" width="1100" height="640" alt="A vivid green matcha drink in a white cup beside a linen napkin">
+          </div>
+          <div class="col-12 md:col-6 p-8">
+            <p class="small fw-bold fg-2 mb-3">02 / SOMETHING GREEN</p>
+            <p class="h2 mb-4">Meet your new matcha mood.</p>
+            <p class="fg-2 mb-5">A smooth, earthy tea break that feels like a fresh start.</p>
+            <a class="btn-solid theme-primary" href="#more">Explore our menu</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item ">
+        <div class="row g-0 align-items-center bg-1 rounded-5">
+          <div class="col-12 md:col-6">
+            <img src="images/featured-3.jpg" class="d-block w-100 rounded-5 hero-photo" width="1100" height="640" alt="An overhead view of an iced coffee with translucent ice cubes in a cream cup">
+          </div>
+          <div class="col-12 md:col-6 p-8">
+            <p class="small fw-bold fg-2 mb-3">03 / SOMETHING COOL</p>
+            <p class="h2 mb-4">Take your coffee on ice.</p>
+            <p class="fg-2 mb-5">A chilled vanilla coffee for long afternoons and sunny days.</p>
+            <a class="btn-solid theme-primary" href="#more">Explore our menu</a>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="d-flex justify-content-between align-items-center mt-3">
+        <div class="d-flex gap-2">
+          <button class="btn-icon btn-sm" type="button" data-bs-target="#featuredDrinks" data-bs-slide="prev" aria-label="Previous slide">
+            <span class="carousel-icon-prev" aria-hidden="true"></span>
+          </button>
+          <button class="btn-icon btn-sm" type="button" data-bs-target="#featuredDrinks" data-bs-slide="next" aria-label="Next slide">
+            <span class="carousel-icon-next" aria-hidden="true"></span>
+          </button>
+        </div>
+        <div class="carousel-indicators" aria-label="Choose a slide">
+          <button class="active" type="button" data-bs-target="#featuredDrinks" data-bs-slide-to="0" aria-current="true" aria-label="Show slide 1"></button>
+          <button type="button" data-bs-target="#featuredDrinks" data-bs-slide-to="1" aria-label="Show slide 2"></button>
+          <button type="button" data-bs-target="#featuredDrinks" data-bs-slide-to="2" aria-label="Show slide 3"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container py-8" id="more" aria-labelledby="moreHeading">
+    <h2 id="moreHeading" class="mb-2">More to explore</h2>
+    <p class="fg-2 mb-7">Six favourites for every kind of study break. Open Details to learn more or Read more for a closer look.</p>
+    <div class="row g-4">
+      <div class="col-12 md:col-6 lg:col-4">
+        <article class="card h-100 shadow-sm">
+          <img src="images/honey-oat-latte.jpg" class="card-img-top card-photo" width="1000" height="690" alt="Overhead illustration of a creamy brown latte with a white leaf of milk foam">
+          <div class="card-body">
+            <h3 class="h4 card-title">Honey Oat Latte</h3>
+            <p class="card-text fg-2">A smooth espresso with creamy oat milk and a little honey.</p>
+            <div class="accordion mb-3">
+              <details class="accordion-item">
+                <summary class="accordion-header">Details</summary>
+                <div class="accordion-body">A mellow pick-me-up for a busy morning. The honey adds a gentle sweetness without hiding the coffee flavour.</div>
+              </details>
+            </div>
+            <button class="btn-solid theme-primary mt-auto" type="button" data-bs-toggle="dialog" data-bs-target="#drinkDialog1" aria-controls="drinkDialog1">Read more</button>
+          </div>
+          <dialog class="dialog" id="drinkDialog1" aria-labelledby="drinkDialog1Title">
+            <div class="dialog-header">
+              <h4 class="dialog-title" id="drinkDialog1Title">Honey Oat Latte</h4>
+              <button class="btn-close" type="button" data-bs-dismiss="dialog" aria-label="Close details for Honey Oat Latte"></button>
+            </div>
+            <div class="dialog-body">
+              <p>If you like a warm, lightly sweet coffee, this is a great place to start. Oat milk gives it a soft, creamy finish.</p>
+            </div>
+            <div class="dialog-footer">
+              <button class="btn-solid theme-secondary" type="button" data-bs-dismiss="dialog">Close</button>
+            </div>
+          </dialog>
+        </article>
+      </div>
+      <div class="col-12 md:col-6 lg:col-4">
+        <article class="card h-100 shadow-sm">
+          <img src="images/iced-vanilla-coffee.jpg" class="card-img-top card-photo" width="1000" height="690" alt="Overhead illustration of iced coffee with several translucent ice cubes">
+          <div class="card-body">
+            <h3 class="h4 card-title">Iced Vanilla Coffee</h3>
+            <p class="card-text fg-2">Cold coffee, milk and vanilla for an easy afternoon break.</p>
+            <div class="accordion mb-3">
+              <details class="accordion-item">
+                <summary class="accordion-header">Details</summary>
+                <div class="accordion-body">This one is chilled and refreshing. A touch of vanilla makes the coffee taste a little sweeter and softer.</div>
+              </details>
+            </div>
+            <button class="btn-solid theme-primary mt-auto" type="button" data-bs-toggle="dialog" data-bs-target="#drinkDialog2" aria-controls="drinkDialog2">Read more</button>
+          </div>
+          <dialog class="dialog" id="drinkDialog2" aria-labelledby="drinkDialog2Title">
+            <div class="dialog-header">
+              <h4 class="dialog-title" id="drinkDialog2Title">Iced Vanilla Coffee</h4>
+              <button class="btn-close" type="button" data-bs-dismiss="dialog" aria-label="Close details for Iced Vanilla Coffee"></button>
+            </div>
+            <div class="dialog-body">
+              <p>Try this when you want coffee without the heat. The ice keeps it crisp, while vanilla rounds out the flavour.</p>
+            </div>
+            <div class="dialog-footer">
+              <button class="btn-solid theme-secondary" type="button" data-bs-dismiss="dialog">Close</button>
+            </div>
+          </dialog>
+        </article>
+      </div>
+      <div class="col-12 md:col-6 lg:col-4">
+        <article class="card h-100 shadow-sm">
+          <img src="images/matcha-morning.jpg" class="card-img-top card-photo" width="1000" height="690" alt="Overhead illustration of a green matcha latte with white milk foam art">
+          <div class="card-body">
+            <h3 class="h4 card-title">Matcha Morning</h3>
+            <p class="card-text fg-2">Earthy green tea whisked until smooth and mixed with milk.</p>
+            <div class="accordion mb-3">
+              <details class="accordion-item">
+                <summary class="accordion-header">Details</summary>
+                <div class="accordion-body">Matcha has a slightly grassy taste and a lovely green colour. It is a nice change from an espresso-based drink.</div>
+              </details>
+            </div>
+            <button class="btn-solid theme-primary mt-auto" type="button" data-bs-toggle="dialog" data-bs-target="#drinkDialog3" aria-controls="drinkDialog3">Read more</button>
+          </div>
+          <dialog class="dialog" id="drinkDialog3" aria-labelledby="drinkDialog3Title">
+            <div class="dialog-header">
+              <h4 class="dialog-title" id="drinkDialog3Title">Matcha Morning</h4>
+              <button class="btn-close" type="button" data-bs-dismiss="dialog" aria-label="Close details for Matcha Morning"></button>
+            </div>
+            <div class="dialog-body">
+              <p>This is for anyone who enjoys tea more than coffee. The creamy milk makes the matcha gentler and easy to sip.</p>
+            </div>
+            <div class="dialog-footer">
+              <button class="btn-solid theme-secondary" type="button" data-bs-dismiss="dialog">Close</button>
+            </div>
+          </dialog>
+        </article>
+      </div>
+      <div class="col-12 md:col-6 lg:col-4">
+        <article class="card h-100 shadow-sm">
+          <img src="images/cinnamon-chai.jpg" class="card-img-top card-photo" width="1000" height="690" alt="Illustration of a tan chai drink with a cinnamon swirl on top">
+          <div class="card-body">
+            <h3 class="h4 card-title">Cinnamon Chai</h3>
+            <p class="card-text fg-2">A cosy blend of black tea, milk and warming spices.</p>
+            <div class="accordion mb-3">
+              <details class="accordion-item">
+                <summary class="accordion-header">Details</summary>
+                <div class="accordion-body">Cinnamon and cardamom give chai its warm flavour. It is especially good on a chilly day between classes.</div>
+              </details>
+            </div>
+            <button class="btn-solid theme-primary mt-auto" type="button" data-bs-toggle="dialog" data-bs-target="#drinkDialog4" aria-controls="drinkDialog4">Read more</button>
+          </div>
+          <dialog class="dialog" id="drinkDialog4" aria-labelledby="drinkDialog4Title">
+            <div class="dialog-header">
+              <h4 class="dialog-title" id="drinkDialog4Title">Cinnamon Chai</h4>
+              <button class="btn-close" type="button" data-bs-dismiss="dialog" aria-label="Close details for Cinnamon Chai"></button>
+            </div>
+            <div class="dialog-body">
+              <p>Choose this if you like fragrant, spiced drinks. It is comforting, aromatic and made for slow afternoons.</p>
+            </div>
+            <div class="dialog-footer">
+              <button class="btn-solid theme-secondary" type="button" data-bs-dismiss="dialog">Close</button>
+            </div>
+          </dialog>
+        </article>
+      </div>
+      <div class="col-12 md:col-6 lg:col-4">
+        <article class="card h-100 shadow-sm">
+          <img src="images/classic-cappuccino.jpg" class="card-img-top card-photo" width="1000" height="690" alt="Illustration of a cappuccino in a cream cup with symmetrical white foam art">
+          <div class="card-body">
+            <h3 class="h4 card-title">Classic Cappuccino</h3>
+            <p class="card-text fg-2">Rich espresso topped with a thick layer of airy milk foam.</p>
+            <div class="accordion mb-3">
+              <details class="accordion-item">
+                <summary class="accordion-header">Details</summary>
+                <div class="accordion-body">A cappuccino has a stronger coffee flavour than a latte, balanced with warm milk and a generous cap of foam.</div>
+              </details>
+            </div>
+            <button class="btn-solid theme-primary mt-auto" type="button" data-bs-toggle="dialog" data-bs-target="#drinkDialog5" aria-controls="drinkDialog5">Read more</button>
+          </div>
+          <dialog class="dialog" id="drinkDialog5" aria-labelledby="drinkDialog5Title">
+            <div class="dialog-header">
+              <h4 class="dialog-title" id="drinkDialog5Title">Classic Cappuccino</h4>
+              <button class="btn-close" type="button" data-bs-dismiss="dialog" aria-label="Close details for Classic Cappuccino"></button>
+            </div>
+            <div class="dialog-body">
+              <p>A simple café classic. It has enough espresso character to wake you up, with foam to keep each sip light.</p>
+            </div>
+            <div class="dialog-footer">
+              <button class="btn-solid theme-secondary" type="button" data-bs-dismiss="dialog">Close</button>
+            </div>
+          </dialog>
+        </article>
+      </div>
+      <div class="col-12 md:col-6 lg:col-4">
+        <article class="card h-100 shadow-sm">
+          <img src="images/hot-chocolate.jpg" class="card-img-top card-photo" width="1000" height="690" alt="Illustration of dark hot chocolate topped with three white marshmallows">
+          <div class="card-body">
+            <h3 class="h4 card-title">Hot Chocolate</h3>
+            <p class="card-text fg-2">A chocolatey cup topped with milk foam and marshmallows.</p>
+            <div class="accordion mb-3">
+              <details class="accordion-item">
+                <summary class="accordion-header">Details</summary>
+                <div class="accordion-body">For the days when coffee is not the mood, this drink is all about a smooth, rich chocolate flavour.</div>
+              </details>
+            </div>
+            <button class="btn-solid theme-primary mt-auto" type="button" data-bs-toggle="dialog" data-bs-target="#drinkDialog6" aria-controls="drinkDialog6">Read more</button>
+          </div>
+          <dialog class="dialog" id="drinkDialog6" aria-labelledby="drinkDialog6Title">
+            <div class="dialog-header">
+              <h4 class="dialog-title" id="drinkDialog6Title">Hot Chocolate</h4>
+              <button class="btn-close" type="button" data-bs-dismiss="dialog" aria-label="Close details for Hot Chocolate"></button>
+            </div>
+            <div class="dialog-body">
+              <p>This is a sweet, caffeine-light alternative to coffee. Perfect for a quiet study break or a chat with friends.</p>
+            </div>
+            <div class="dialog-footer">
+              <button class="btn-solid theme-secondary" type="button" data-bs-dismiss="dialog">Close</button>
+            </div>
+          </dialog>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="mt-10 py-7">
+  <div class="container text-center">
+    <p class="mb-1 fw-bold">Study Break Café</p>
+    <p class="small mb-0">Created by Isabella Fulchan</p>
+  </div>
+</footer>
+  <script type="module" src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
